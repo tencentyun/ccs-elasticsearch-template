@@ -6,8 +6,7 @@ spec:
   template:
     metadata:
       labels:
-        component: elasticsearch
-        role: data
+        component: logstash
     spec:
       containers:
       - name: logstash
